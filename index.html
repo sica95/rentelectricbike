@@ -1,551 +1,529 @@
 <!DOCTYPE html>
 <html lang="sr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>
-      Rentiranje Električnih Bicikala | Hotel za E-Bicikle | Popravke | Transport
-    </title>
-
-    <meta
-      name="description"
-      content="Rentiranje električnih bicikala u Beogradu – idealno za istraživanje grada, dostavu i vožnju. Takođe nudimo hotel za e-bicikle, popravku i transport e-bicikala, sve na Autokomandi. Obezbeđujemo profesionalnu negu, održavanje i pristup vašem biciklu 24/7."
-    />
-    <meta
-      name="keywords"
-      content="rentiranje električnih bicikala, renta bicikala, iznajmljivanje električnih bicikala, najam bicikala, električni bicikli za dostavu, servis električnih bicikala, hotel za bicikle, transport bicikala"
-    />
-    <meta name="robots" content="index, follow" />
-    <meta name="author" content="Rentiranje Električnih Bicikala" />
-
-    <!-- Hreflang Tags -->
-    <link
-      rel="alternate"
-      hreflang="sr"
-      href="https://www.rentiranjeelektricnihbicikala.rs/"
-    />
-    <link
-      rel="alternate"
-      hreflang="en"
-      href="https://www.rentiranjeelektricnihbicikala.rs/en/"
-    />
-    <link
-      rel="alternate"
-      hreflang="x-default"
-      href="https://www.rentiranjeelektricnihbicikala.rs/"
-    />
-
-    <!-- Open Graph -->
-    <meta
-      property="og:title"
-      content="Rentiranje Električnih Bicikala Beograd"
-    />
-    <meta
-      property="og:description"
-      content="Rentirajte električni bicikl u Beogradu. Ponuda uključuje hotel za bicikle i servis na Autokomandi."
-    />
-    <meta
-      property="og:image"
-      content="https://www.rentiranjeelektricnihbicikala.rs/images/bikes/bike20.webp"
-    />
-    <meta
-      property="og:url"
-      content="https://www.rentiranjeelektricnihbicikala.rs/"
-    />
-    <meta property="og:type" content="website" />
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Rentiranje Električnih Bicikala Beograd"
-    />
-    <meta
-      name="twitter:description"
-      content="Rentiranje e-bicikala u Beogradu sa dodatnim uslugama kao što su popravke, hotel za bicikle i transport."
-    />
-    <meta
-      name="twitter:image"
-      content="https://www.rentiranjeelektricnihbicikala.rs/images/bikes/bike20.webp"
-    />
-
-    <!-- Favicon -->
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-
-    <!-- Canonical -->
-    <link
-      rel="canonical"
-      href="https://www.rentiranjeelektricnihbicikala.rs/"
-    />
-
-    <!-- Styles and Tailwind -->
-    <link rel="stylesheet" href="assets/css/tailwind.css" />
-    <link rel="stylesheet" href="assets/css/fancybox.css" />
-
-    <!-- JSON-LD Local Business Schema -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Rentiranje Električnih Bicikala Beograd",
-        "image": "https://www.rentiranjeelektricnihbicikala.rs/images/bikes/bike20.webp",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Autokomanda",
-          "addressLocality": "Beograd",
-          "postalCode": "11000",
-          "addressCountry": "RS"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": 44.789571,
-          "longitude": 20.45897
-        },
-        "url": "https://www.rentiranjeelektricnihbicikala.rs",
-        "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 09:00-18:00",
-        "description": "Rentiranje, hotel za bicikle i popravka električnih bicikala u Beogradu, Srbija."
-      }
-    </script>
-
-    <style>
-      html,
-      body {
-        scroll-behavior: smooth;
-      }
-    </style>
-  </head>
-
-  <body class="bg-gray-950 text-white font-sans">
-    <!-- Language Toggle -->
-    <div class="fixed top-4 right-4 z-50">
-      <a
-        href="/en/"
-        class="bg-gray-800 text-white font-semibold py-2 px-4 rounded-full hover:bg-gray-700 transition"
-        aria-label="Pogledajte sajt na engleskom jeziku"
-        >English</a
-      >
-    </div>
-
-    <!-- Hero -->
-    <section class="relative py-20 px-6 text-center shadow-xl">
-      <div
-        class="absolute inset-0 bg-cover bg-center opacity-30"
-        style="background-image: url('images/bikes/bike20.webp')"
-        aria-hidden="true"
-      ></div>
-      <div
-        class="absolute inset-0 bg-gradient-to-br from-gray-400 via-blue-500 to-blue-600 opacity-70"
-        aria-hidden="true"
-      ></div>
-      <div class="relative max-w-4xl mx-auto">
-        <h1 class="text-5xl font-extrabold tracking-tight mb-4">
-          Rentiraj električni bicikl u Beogradu!
-        </h1>
-        <p class="text-lg text-white/90 mb-8">
-          Premium električni bicikli za istraživanje grada, dostave i
-          svakodnevnu vožnju.
-        </p>
-        <a
-          href="#kontakt"
-          class="bg-white text-gray-900 font-semibold py-3 px-6 rounded-full hover:bg-gray-200 transition"
-          >Kontakt</a
-        >
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>
+         Rentiranje Električnih Bicikala | Hotel za E-Bicikle | Popravke | Transport
+      </title>
+      <meta
+         name="description"
+         content="Rentiranje električnih bicikala u Beogradu – idealno za istraživanje grada, dostavu i vožnju. Takođe nudimo hotel za e-bicikle, popravku i transport e-bicikala, sve na Autokomandi. Obezbeđujemo profesionalnu negu, održavanje i pristup vašem biciklu 24/7."
+         />
+      <meta
+         name="keywords"
+         content="rentiranje električnih bicikala, renta bicikala, iznajmljivanje električnih bicikala, najam bicikala, električni bicikli za dostavu, servis električnih bicikala, hotel za bicikle, transport bicikala"
+         />
+      <meta name="robots" content="index, follow" />
+      <meta name="author" content="Rentiranje Električnih Bicikala" />
+      <!-- Hreflang Tags -->
+      <link
+         rel="alternate"
+         hreflang="sr"
+         href="https://www.rentiranjeelektricnihbicikala.rs/"
+         />
+      <link
+         rel="alternate"
+         hreflang="en"
+         href="https://www.rentiranjeelektricnihbicikala.rs/en/"
+         />
+      <link
+         rel="alternate"
+         hreflang="x-default"
+         href="https://www.rentiranjeelektricnihbicikala.rs/"
+         />
+      <!-- Open Graph -->
+      <meta
+         property="og:title"
+         content="Rentiranje Električnih Bicikala Beograd"
+         />
+      <meta
+         property="og:description"
+         content="Rentirajte električni bicikl u Beogradu. Ponuda uključuje hotel za bicikle i servis na Autokomandi."
+         />
+      <meta
+         property="og:image"
+         content="https://www.rentiranjeelektricnihbicikala.rs/images/bikes/bike20.webp"
+         />
+      <meta
+         property="og:url"
+         content="https://www.rentiranjeelektricnihbicikala.rs/"
+         />
+      <meta property="og:type" content="website" />
+      <!-- Twitter Card -->
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta
+         name="twitter:title"
+         content="Rentiranje Električnih Bicikala Beograd"
+         />
+      <meta
+         name="twitter:description"
+         content="Rentiranje e-bicikala u Beogradu sa dodatnim uslugama kao što su popravke, hotel za bicikle i transport."
+         />
+      <meta
+         name="twitter:image"
+         content="https://www.rentiranjeelektricnihbicikala.rs/images/bikes/bike20.webp"
+         />
+      <!-- Favicon -->
+      <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+      <!-- Canonical -->
+      <link
+         rel="canonical"
+         href="https://www.rentiranjeelektricnihbicikala.rs/"
+         />
+      <!-- Styles and Tailwind -->
+      <link rel="stylesheet" href="assets/css/tailwind.css" />
+      <link rel="stylesheet" href="assets/css/fancybox.css" />
+      <!-- JSON-LD Local Business Schema -->
+      <script type="application/ld+json">
+         {
+           "@context": "https://schema.org",
+           "@type": "LocalBusiness",
+           "name": "Rentiranje Električnih Bicikala Beograd",
+           "image": "https://www.rentiranjeelektricnihbicikala.rs/images/bikes/bike20.webp",
+           "address": {
+             "@type": "PostalAddress",
+             "streetAddress": "Autokomanda",
+             "addressLocality": "Beograd",
+             "postalCode": "11000",
+             "addressCountry": "RS"
+           },
+           "geo": {
+             "@type": "GeoCoordinates",
+             "latitude": 44.789571,
+             "longitude": 20.45897
+           },
+           "url": "https://www.rentiranjeelektricnihbicikala.rs",
+           "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 09:00-18:00",
+           "description": "Rentiranje, hotel za bicikle i popravka električnih bicikala u Beogradu, Srbija."
+         }
+      </script>
+      <style>
+         html,
+         body {
+         scroll-behavior: smooth;
+         }
+      </style>
+   </head>
+   <body class="bg-gray-950 text-white font-sans">
+      <!-- Language Toggle -->
+      <div class="fixed top-4 right-4 z-50">
+         <a
+            href="/en/"
+            class="bg-gray-800 text-white font-semibold py-2 px-4 rounded-full hover:bg-gray-700 transition"
+            aria-label="Pogledajte sajt na engleskom jeziku"
+            >English</a
+            >
       </div>
-    </section>
-
-    <!-- Services -->
-    <section class="max-w-7xl mx-auto px-6 py-16">
-      <h2 class="text-3xl font-bold text-center mb-12">Naše usluge</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        <!-- Hotel -->
-        <div
-          class="bg-gray-800 rounded-lg overflow-hidden shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
-        >
-          <img
-            src="images/hotel/hotel2.webp"
-            alt="Hotel za e-bicikle"
-            class="w-full h-64 object-cover"
-          />
-          <div class="p-6">
-            <h3 class="text-xl font-bold mb-2">Hotel</h3>
-            <p class="text-gray-300 text-sm">
-              Bezbedan hotel za bicikle, e-skutere i opremu, sa ili bez
-              punjenja baterija.
+      <!-- Hero -->
+      <section class="relative py-20 px-6 text-center shadow-xl">
+         <div
+            class="absolute inset-0 bg-cover bg-center opacity-30"
+            style="background-image: url('images/bikes/bike20.webp')"
+            aria-hidden="true"
+            ></div>
+         <div
+            class="absolute inset-0 bg-gradient-to-br from-gray-400 via-blue-500 to-blue-600 opacity-70"
+            aria-hidden="true"
+            ></div>
+         <div class="relative max-w-4xl mx-auto">
+            <h1 class="text-5xl font-extrabold tracking-tight mb-4">
+               Rentiraj električni bicikl u Beogradu!
+            </h1>
+            <p class="text-lg text-white/90 mb-8">
+               Premium električni bicikli za istraživanje grada, dostave i
+               svakodnevnu vožnju.
             </p>
-          </div>
-        </div>
-        <!-- Rentals -->
-        <div
-          class="bg-gray-800 rounded-lg overflow-hidden shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
-        >
-          <img
-            src="images/bikes/bike22.webp"
-            alt="Rentiranje e-bicikala"
-            class="w-full h-64 object-cover"
-          />
-          <div class="p-6">
-            <h3 class="text-xl font-bold mb-2">Rentiranje</h3>
-            <p class="text-gray-300 text-sm">
-              Bicikli sa motorima 500W–1000W i dometom do 150km. Gas +
-              asistencija. Idealno za grad i avanturu.
+            <a
+               href="#kontakt"
+               class="bg-white text-gray-900 font-semibold py-3 px-6 rounded-full hover:bg-gray-200 transition"
+               >Kontakt</a
+               >
+         </div>
+      </section>
+      <!-- Services -->
+      <section class="max-w-7xl mx-auto px-6 py-16">
+         <h2 class="text-3xl font-bold text-center mb-12">Naše usluge</h2>
+         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <!-- Hotel -->
+            <div
+               class="bg-gray-800 rounded-lg overflow-hidden shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+               >
+               <img
+                  src="images/hotel/hotel2.webp"
+                  alt="Hotel za e-bicikle"
+                  class="w-full h-64 object-cover"
+                  />
+               <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2">Hotel</h3>
+                  <p class="text-gray-300 text-sm">
+                     Bezbedan hotel za bicikle, e-skutere i opremu, sa ili bez
+                     punjenja baterija.
+                  </p>
+               </div>
+            </div>
+            <!-- Rentals -->
+            <div
+               class="bg-gray-800 rounded-lg overflow-hidden shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+               >
+               <img
+                  src="images/bikes/bike22.webp"
+                  alt="Rentiranje e-bicikala"
+                  class="w-full h-64 object-cover"
+                  />
+               <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2">Rentiranje</h3>
+                  <p class="text-gray-300 text-sm">
+                     Bicikli sa motorima 500W–1000W i dometom do 150km. Gas +
+                     asistencija. Idealno za grad i avanturu.
+                  </p>
+               </div>
+            </div>
+            <!-- Repairs -->
+            <div
+               class="bg-gray-800 rounded-lg overflow-hidden shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+               >
+               <img
+                  src="images/bikes/bike9.webp"
+                  alt="Popravke e-bicikala"
+                  class="w-full h-64 object-cover"
+                  />
+               <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2">Popravke</h3>
+                  <p class="text-gray-300 text-sm">
+                     Popravke vaših ili naših bicikala po standardnim
+                     cenama. Dostupni su i delovi za prodaju.
+                  </p>
+               </div>
+            </div>
+            <!-- Transport -->
+            <div
+               class="bg-gray-800 rounded-lg overflow-hidden shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
+               >
+               <img
+                  src="images/transport/transport3.webp"
+                  alt="Transport e-bicikala"
+                  class="w-full h-64 object-cover"
+                  />
+               <div class="p-6">
+                  <h3 class="text-xl font-bold mb-2">Transport</h3>
+                  <p class="text-gray-300 text-sm">
+                     Nudimo prevoz e-bicikala do vaše adrese u Beogradu, kao i transport u slučaju kvara. Brza i sigurna usluga!
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Location -->
+      <section class="max-w-7xl mx-auto px-6 py-16">
+         <h2 class="text-3xl font-bold text-center mb-8">Gde se nalazimo</h2>
+         <div class="flex flex-col md:flex-row gap-8">
+         <!-- Map -->
+         <div class="w-full md:w-2/3 h-96">
+            <iframe
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5663.139975907827!2d20.458970347809736!3d44.78957129854373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a706caa02b55f%3A0x5ca197ebb70c0041!2z0JDRg9GC0L7QutC-0LzQsNC90LTQsCwg0JHQtdC-0LPRgNCw0LQ!5e0!3m2!1ssr!2srs!4v1755165703517!5m2!1ssr!2srs"
+               width="100%"
+               height="100%"
+               style="border: 0"
+               allowfullscreen=""
+               loading="lazy"
+               referrerpolicy="no-referrer-when-downgrade"
+               class="rounded-lg shadow-lg"
+               title="Mapa lokacije - Autokomanda"
+               ></iframe>
+         </div>
+         <!-- Address & Info -->
+         <div class="w-full md:w-1/3 flex flex-col justify-center">
+            <h3 class="text-xl font-semibold mb-4">Posetite nas u Beogradu</h3>
+            <p class="text-gray-300 mb-2">
+               Autokomanda, Beograd 11000<br />
+               Srbija
             </p>
-          </div>
-        </div>
-        <!-- Repairs -->
-        <div
-          class="bg-gray-800 rounded-lg overflow-hidden shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
-        >
-          <img
-            src="images/bikes/bike9.webp"
-            alt="Popravke e-bicikala"
-            class="w-full h-64 object-cover"
-          />
-          <div class="p-6">
-            <h3 class="text-xl font-bold mb-2">Popravke</h3>
-            <p class="text-gray-300 text-sm">
-              Popravke vaših ili naših bicikala po standardnim
-              cenama. Dostupni su i delovi za prodaju.
+            <p class="text-gray-400 text-sm">
+               Nalazimo se u srcu Beograda na Autokomandi — idealno mesto za
+               preuzimanje vašeg e-bicikla i početak avanture. Dostupno ulično
+               parkiranje.
             </p>
-          </div>
-        </div>
-        <!-- Transport -->
-        <div
-          class="bg-gray-800 rounded-lg overflow-hidden shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
-        >
-          <img
-            src="images/transport/transport3.webp"
-            alt="Transport e-bicikala"
-            class="w-full h-64 object-cover"
-          />
-          <div class="p-6">
-            <h3 class="text-xl font-bold mb-2">Transport</h3>
-            <p class="text-gray-300 text-sm">
-              Nudimo prevoz e-bicikala do vaše adrese u Beogradu, kao i transport u slučaju kvara. Brza i sigurna usluga!
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Location -->
-    <section class="max-w-7xl mx-auto px-6 py-16">
-      <h2 class="text-3xl font-bold text-center mb-8">Gde se nalazimo</h2>
-      <div class="flex flex-col md:flex-row gap-8">
-        <!-- Map -->
-        <div class="w-full md:w-2/3 h-96">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5663.139975907827!2d20.458970347809736!3d44.78957129854373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a706caa02b55f%3A0x5ca197ebb70c0041!2z0JDRg9GC0L7QutC-0LzQsNC90LTQsCwg0JHQtdC-0LPRgNCw0LQ!5e0!3m2!1ssr!2srs!4v1755165703517!5m2!1ssr!2srs"
-          width="100%"
-          height="100%"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          class="rounded-lg shadow-lg"
-          title="Mapa lokacije - Autokomanda"
-        ></iframe>
-      </div>
-
-      <!-- Address & Info -->
-      <div class="w-full md:w-1/3 flex flex-col justify-center">
-        <h3 class="text-xl font-semibold mb-4">Posetite nas u Beogradu</h3>
-        <p class="text-gray-300 mb-2">
-          Autokomanda, Beograd 11000<br />
-          Srbija
-        </p>
-        <p class="text-gray-400 text-sm">
-          Nalazimo se u srcu Beograda na Autokomandi — idealno mesto za
-          preuzimanje vašeg e-bicikla i početak avanture. Dostupno ulično
-          parkiranje.
-        </p>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section class="max-w-7xl mx-auto px-6 py-16" id="kontakt">
-      <h2 class="text-3xl font-bold text-center mb-8">
-        Kontaktirajte za rentu Beograd
-      </h2>
-      <div class="flex flex-col md:flex-row gap-8">
-        <!-- Instagram Contact -->
-        <div class="w-full md:w-1/2 flex flex-col items-center justify-center">
-          <p class="text-lg mb-4">Kontaktirajte nas preko Instagrama</p>
-          <a
-            href="https://www.instagram.com/rentiranje_el_bicikli_skutera?igsh=MWY3cmZieXR3MDdxZw=="
-            target="_blank"
-            rel="noopener noreferrer"
-            class="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition mb-4"
-            aria-label="Pratite nas na Instagramu"
-          >
-            <svg
-              class="w-8 h-8"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
-            >
-              <path
-                d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.326 3.608 1.301.975.975 1.24 2.242 1.301 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.326 2.633-1.301 3.608-.975.975-2.242 1.24-3.608 1.301-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.326-3.608-1.301-.975-.975-1.24-2.242-1.301-3.608-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.062-1.366.326-2.633 1.301-3.608.975-.975 2.242-1.24 3.608-1.301 1.266-.058 1.646-.07 4.85-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-1.658.075-3.224.438-4.44 1.654C1.438 2.942 1.075 4.508 1 6.166.942 7.446.928 7.854.928 11.113s.014 3.667.072 4.947c.075 1.658.438 3.224 1.654 4.44 1.216 1.216 2.782 1.579 4.44 1.654 1.28.058 1.688.072 4.947.072s3.667-.014 4.947-.072c1.658-.075 3.224-.438 4.44-1.654 1.216-1.216 1.579-2.782 1.654-4.44.058-1.28.072-1.688.072-4.947s-.014-3.667-.072-4.947c-.075-1.658-.438-3.224-1.654-4.44-1.216-1.216-2.782-1.579-4.44-1.654-1.28-.058-1.688-.072-4.947-.072zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 11-2.88 0 1.44 1.44 0 012.88 0z"
-              />
-            </svg>
-            <span>@rentiranje_el_bicikli_skutera</span>
-          </a>
-
-          <!-- QR Code -->
-          <p class="text-gray-300 mb-2">
-            ili skenirajte ovaj QR kod vašim telefonom:
-          </p>
-          <img
-            src="images/qrcode.webp"
-            alt="Instagram QR kod za rentiranje električnih bicikala Beograd"
-            class="w-40 h-40 object-contain rounded-lg shadow-lg"
-            loading="lazy"
-          />
-        </div>
-
-        <!-- Separator -->
-        <div
-          class="block md:border-l border-b md:border-b-0 border-gray-600 my-8 md:my-0 md:mx-8 h-px md:h-auto w-full md:w-px"
-        ></div>
-
-        <!-- Gallery Thumbnail Preview -->
-        <div class="w-full md:w-1/2 flex flex-col items-center justify-center">
-          <p class="text-lg mb-4">Galerija E-Bicikala</p>
-          <!-- Clickable image that opens Fancybox gallery -->
-          <a
-            href="images/hotel/hotel1.webp"
-            data-fancybox="gallery"
-            data-caption="Hotel za e-bicikle u Beogradu"
-            class="block overflow-hidden rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
-          >
-            <img
-              src="images/hotel/hotel1.webp"
-              alt="Hotel za e-bicikle u Beogradu"
-              class="w-full h-60 object-cover rounded-lg"
-              loading="lazy"
-            />
-          </a>
-
-          <!-- Hidden images for gallery -->
-          <div class="hidden">
+         </div>
+      </section>
+      <!-- Contact -->
+      <section class="max-w-7xl mx-auto px-6 py-16" id="kontakt">
+         <h2 class="text-3xl font-bold text-center mb-8">
+            Kontaktirajte za rentu Beograd
+         </h2>
+         <div class="flex flex-col md:flex-row gap-8">
+            <!-- Instagram Contact -->
+            <div class="w-full md:w-1/2 flex flex-col items-center justify-center">
+               <p class="text-lg mb-4">Kontaktirajte nas preko Instagrama</p>
+               <a
+                  href="https://www.instagram.com/rentiranje_el_bicikli_skutera?igsh=MWY3cmZieXR3MDdxZw=="
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition mb-4"
+                  aria-label="Pratite nas na Instagramu"
+                  >
+                  <svg
+                     class="w-8 h-8"
+                     fill="currentColor"
+                     viewBox="0 0 24 24"
+                     xmlns="http://www.w3.org/2000/svg"
+                     aria-hidden="true"
+                     >
+                     <path
+                        d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.326 3.608 1.301.975.975 1.24 2.242 1.301 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.326 2.633-1.301 3.608-.975.975-2.242 1.24-3.608 1.301-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.326-3.608-1.301-.975-.975-1.24-2.242-1.301-3.608-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.062-1.366.326-2.633 1.301-3.608.975-.975 2.242-1.24 3.608-1.301 1.266-.058 1.646-.07 4.85-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-1.658.075-3.224.438-4.44 1.654C1.438 2.942 1.075 4.508 1 6.166.942 7.446.928 7.854.928 11.113s.014 3.667.072 4.947c.075 1.658.438 3.224 1.654 4.44 1.216 1.216 2.782 1.579 4.44 1.654 1.28.058 1.688.072 4.947.072s3.667-.014 4.947-.072c1.658-.075 3.224-.438 4.44-1.654 1.216-1.216 1.579-2.782 1.654-4.44.058-1.28.072-1.688.072-4.947s-.014-3.667-.072-4.947c-.075-1.658-.438-3.224-1.654-4.44-1.216-1.216-2.782-1.579-4.44-1.654-1.28-.058-1.688-.072-4.947-.072zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zm0 10.162a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 11-2.88 0 1.44 1.44 0 012.88 0z"
+                        />
+                  </svg>
+                  <span>@rentiranje_el_bicikli_skutera</span>
+               </a>
+               <!-- QR Code -->
+               <p class="text-gray-300 mb-2">
+                  ili skenirajte ovaj QR kod vašim telefonom:
+               </p>
+               <img
+                  src="images/qrcode.webp"
+                  alt="Instagram QR kod za rentiranje električnih bicikala Beograd"
+                  class="w-40 h-40 object-contain rounded-lg shadow-lg"
+                  loading="lazy"
+                  />
+            </div>
+            <!-- Separator -->
+            <div
+               class="block md:border-l border-b md:border-b-0 border-gray-600 my-8 md:my-0 md:mx-8 h-px md:h-auto w-full md:w-px"
+               ></div>
+            <!-- Gallery Thumbnail Preview -->
+            <div class="w-full md:w-1/2 flex flex-col items-center justify-center">
+               <p class="text-lg mb-4">Galerija E-Bicikala</p>
+               <!-- Clickable image that opens Fancybox gallery -->
+               <a
+                  href="images/hotel/hotel1.webp"
+                  data-fancybox="gallery"
+                  data-caption="Hotel za e-bicikle u Beogradu"
+                  class="block overflow-hidden rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
+                  >
+               <img
+                  src="images/hotel/hotel1.webp"
+                  alt="Hotel za e-bicikle u Beogradu"
+                  class="w-full h-60 object-cover rounded-lg"
+                  loading="lazy"
+                  />
+               </a>
+               <!-- Hidden images for gallery -->
+               <div class="hidden">
+                  <a
+                     href="images/hotel/hotel3.webp"
+                     data-fancybox="gallery"
+                     data-caption="Slika hotela 3"
+                     >
+                  <img
+                     src="images/hotel/hotel3.webp"
+                     alt="Slika hotela 3"
+                     loading="lazy"
+                     />
+                  </a>
+                  <a
+                     href="images/hotel/hotel4.webp"
+                     data-fancybox="gallery"
+                     data-caption="Slika hotela 4"
+                     >
+                  <img
+                     src="images/hotel/hotel4.webp"
+                     alt="Slika hotela 4"
+                     loading="lazy"
+                     />
+                  </a>
+                  <a
+                     href="images/bikes/bike1.webp"
+                     data-fancybox="gallery"
+                     data-caption="Slika električnog bicikla 1"
+                     >
+                  <img
+                     src="images/bikes/bike1.webp"
+                     alt="Slika električnog bicikla 1"
+                     loading="lazy"
+                     />
+                  </a>
+                  <a
+                     href="images/bikes/bike3.webp"
+                     data-fancybox="gallery"
+                     data-caption="Slika električnog bicikla 3"
+                     >
+                  <img
+                     src="images/bikes/bike3.webp"
+                     alt="Slika električnog bicikla 3"
+                     loading="lazy"
+                     />
+                  </a>
+                  <a
+                     href="images/bikes/bike4.webp"
+                     data-fancybox="gallery"
+                     data-caption="Slika električnog bicikla 4"
+                     >
+                  <img
+                     src="images/bikes/bike4.webp"
+                     alt="Slika električnog bicikla 4"
+                     loading="lazy"
+                     />
+                  </a>
+                  <a
+                     href="images/bikes/bike5.webp"
+                     data-fancybox="gallery"
+                     data-caption="Slika električnog bicikla 5"
+                     >
+                  <img
+                     src="images/bikes/bike5.webp"
+                     alt="Slika električnog bicikla 5"
+                     loading="lazy"
+                     />
+                  </a>
+                  <a
+                     href="images/bikes/bike6.webp"
+                     data-fancybox="gallery"
+                     data-caption="Slika električnog bicikla 6"
+                     >
+                  <img
+                     src="images/bikes/bike6.webp"
+                     alt="Slika električnog bicikla 6"
+                     loading="lazy"
+                     />
+                  </a>
+                  <a
+                     href="images/bikes/bike7.webp"
+                     data-fancybox="gallery"
+                     data-caption="Slika električnog bicikla 7"
+                     >
+                  <img
+                     src="images/bikes/bike7.webp"
+                     alt="Slika električnog bicikla 7"
+                     loading="lazy"
+                     />
+                  </a>
+                  <a
+                     href="images/bikes/bike8.webp"
+                     data-fancybox="gallery"
+                     data-caption="Slika električnog bicikla 8"
+                     >
+                  <img
+                     src="images/bikes/bike8.webp"
+                     alt="Slika električnog bicikla 8"
+                     loading="lazy"
+                     />
+                  </a>
+                  <a
+                     href="images/bikes/bike10.webp"
+                     data-fancybox="gallery"
+                     data-caption="Slika električnog bicikla 10"
+                     >
+                  <img
+                     src="images/bikes/bike10.webp"
+                     alt="Slika električnog bicikla 10"
+                     loading="lazy"
+                     />
+                  </a>
+                  <a
+                     href="images/bikes/bike12.webp"
+                     data-fancybox="gallery"
+                     data-caption="Slika električnog bicikla 12"
+                     >
+                  <img
+                     src="images/bikes/bike12.webp"
+                     alt="Slika električnog bicikla 12"
+                     loading="lazy"
+                     />
+                  </a>
+                  <a
+                     href="images/bikes/bike14.webp"
+                     data-fancybox="gallery"
+                     data-caption="Slika električnog bicikla 14"
+                     >
+                  <img
+                     src="images/bikes/bike14.webp"
+                     alt="Slika električnog bicikla 14"
+                     loading="lazy"
+                     />
+                  </a>
+                  <a
+                     href="images/bikes/bike15.webp"
+                     data-fancybox="gallery"
+                     data-caption="Slika električnog bicikla 15"
+                     >
+                  <img
+                     src="images/bikes/bike15.webp"
+                     alt="Slika električnog bicikla 15"
+                     loading="lazy"
+                     />
+                  </a>
+                  <a
+                     href="images/bikes/bike21.webp"
+                     data-fancybox="gallery"
+                     data-caption="Slika električnog bicikla 21"
+                     >
+                  <img
+                     src="images/bikes/bike21.webp"
+                     alt="Slika električnog bicikla 21"
+                     loading="lazy"
+                     />
+                  </a>
+                  <a
+                     href="images/transport/transport1.webp"
+                     data-fancybox="gallery"
+                     data-caption="Slika pickup-a za bicikle 1"
+                     >
+                  <img
+                     src="images/transport/transport1.webp"
+                     alt="Slika pickup-a za bicikle 1"
+                     loading="lazy"
+                     />
+                  </a>
+                  <a
+                     href="images/transport/transport2.webp"
+                     data-fancybox="gallery"
+                     data-caption="Slika pickup-a za bicikle 2"
+                     >
+                  <img
+                     src="images/transport/transport2.webp"
+                     alt="Slika pickup-a za bicikle 2"
+                     loading="lazy"
+                     />
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Footer -->
+      <footer class="bg-gray-900 py-16 text-center text-sm text-gray-400">
+         <p>
+            &copy; 2025 Rentiranje električnih bicikala. Sva prava zadržana.<br />
+            Kreirao Miloš Ilić. Kontaktirajte me na:
             <a
-              href="images/hotel/hotel3.webp"
-              data-fancybox="gallery"
-              data-caption="Slika hotela 3"
-            >
-              <img
-                src="images/hotel/hotel3.webp"
-                alt="Slika hotela 3"
-                loading="lazy"
-              />
-            </a>
-            <a
-              href="images/hotel/hotel4.webp"
-              data-fancybox="gallery"
-              data-caption="Slika hotela 4"
-            >
-              <img
-                src="images/hotel/hotel4.webp"
-                alt="Slika hotela 4"
-                loading="lazy"
-              />
-            </a>
-            <a
-              href="images/bikes/bike1.webp"
-              data-fancybox="gallery"
-              data-caption="Slika električnog bicikla 1"
-            >
-              <img
-                src="images/bikes/bike1.webp"
-                alt="Slika električnog bicikla 1"
-                loading="lazy"
-              />
-            </a>
-            <a
-              href="images/bikes/bike3.webp"
-              data-fancybox="gallery"
-              data-caption="Slika električnog bicikla 3"
-            >
-              <img
-                src="images/bikes/bike3.webp"
-                alt="Slika električnog bicikla 3"
-                loading="lazy"
-              />
-            </a>
-            <a
-              href="images/bikes/bike4.webp"
-              data-fancybox="gallery"
-              data-caption="Slika električnog bicikla 4"
-            >
-              <img
-                src="images/bikes/bike4.webp"
-                alt="Slika električnog bicikla 4"
-                loading="lazy"
-              />
-            </a>
-            <a
-              href="images/bikes/bike5.webp"
-              data-fancybox="gallery"
-              data-caption="Slika električnog bicikla 5"
-            >
-              <img
-                src="images/bikes/bike5.webp"
-                alt="Slika električnog bicikla 5"
-                loading="lazy"
-              />
-            </a>
-            <a
-              href="images/bikes/bike6.webp"
-              data-fancybox="gallery"
-              data-caption="Slika električnog bicikla 6"
-            >
-              <img
-                src="images/bikes/bike6.webp"
-                alt="Slika električnog bicikla 6"
-                loading="lazy"
-              />
-            </a>
-            <a
-              href="images/bikes/bike7.webp"
-              data-fancybox="gallery"
-              data-caption="Slika električnog bicikla 7"
-            >
-              <img
-                src="images/bikes/bike7.webp"
-                alt="Slika električnog bicikla 7"
-                loading="lazy"
-              />
-            </a>
-            <a
-              href="images/bikes/bike8.webp"
-              data-fancybox="gallery"
-              data-caption="Slika električnog bicikla 8"
-            >
-              <img
-                src="images/bikes/bike8.webp"
-                alt="Slika električnog bicikla 8"
-                loading="lazy"
-              />
-            </a>
-            <a
-              href="images/bikes/bike10.webp"
-              data-fancybox="gallery"
-              data-caption="Slika električnog bicikla 10"
-            >
-              <img
-                src="images/bikes/bike10.webp"
-                alt="Slika električnog bicikla 10"
-                loading="lazy"
-              />
-            </a>
-            <a
-              href="images/bikes/bike12.webp"
-              data-fancybox="gallery"
-              data-caption="Slika električnog bicikla 12"
-            >
-              <img
-                src="images/bikes/bike12.webp"
-                alt="Slika električnog bicikla 12"
-                loading="lazy"
-              />
-            </a>
-            <a
-              href="images/bikes/bike14.webp"
-              data-fancybox="gallery"
-              data-caption="Slika električnog bicikla 14"
-            >
-              <img
-                src="images/bikes/bike14.webp"
-                alt="Slika električnog bicikla 14"
-                loading="lazy"
-              />
-            </a>
-            <a
-              href="images/bikes/bike15.webp"
-              data-fancybox="gallery"
-              data-caption="Slika električnog bicikla 15"
-            >
-              <img
-                src="images/bikes/bike15.webp"
-                alt="Slika električnog bicikla 15"
-                loading="lazy"
-              />
-            </a>
-            <a
-              href="images/bikes/bike21.webp"
-              data-fancybox="gallery"
-              data-caption="Slika električnog bicikla 21"
-            >
-              <img
-                src="images/bikes/bike21.webp"
-                alt="Slika električnog bicikla 21"
-                loading="lazy"
-              />
-            </a>
-            <a
-              href="images/transport/transport1.webp"
-              data-fancybox="gallery"
-              data-caption="Slika pickup-a za bicikle 1"
-            >
-              <img
-                src="images/transport/transport1.webp"
-                alt="Slika pickup-a za bicikle 1"
-                loading="lazy"
-              />
-            </a>
-            <a
-              href="images/transport/transport2.webp"
-              data-fancybox="gallery"
-              data-caption="Slika pickup-a za bicikle 2"
-            >
-              <img
-                src="images/transport/transport2.webp"
-                alt="Slika pickup-a za bicikle 2"
-                loading="lazy"
-              />
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-gray-900 py-16 text-center text-sm text-gray-400">
-      <p>
-        &copy; 2025 Rentiranje električnih bicikala. Sva prava zadržana.<br />
-        Kreirao Miloš Ilić. Kontaktirajte me na:
-        <a
-          href="mailto:m.iwork71@gmail.com"
-          class="text-blue-400 hover:text-blue-300"
-          >m.iwork71@gmail.com</a
-        >
-      </p>
-    </footer>
-
-    <!-- Fancybox JS -->
-    <script src="assets/js/fancybox.umd.js"></script>
-
-    <script>
-      Fancybox.bind('[data-fancybox="gallery"]', {
-        Carousel: {
-          Thumbs: true,
-          Toolbar: {
-            display: {
-              left: [],
-              middle: [],
-              right: ["close"],
-            },
-          },
-          Zoomable: {
-            Panzoom: {
-              maxScale: "cover",
-              panMode: "mousemove",
-              mouseMoveFactor: 1.1,
-            },
-          },
-        },
-      });
-    </script>
-  </body>
+               href="mailto:m.iwork71@gmail.com"
+               class="text-blue-400 hover:text-blue-300"
+               >m.iwork71@gmail.com</a
+               >
+         </p>
+      </footer>
+      <!-- Fancybox JS -->
+      <script src="assets/js/fancybox.umd.js"></script>
+      <script>
+         Fancybox.bind('[data-fancybox="gallery"]', {
+           Carousel: {
+             Thumbs: true,
+             Toolbar: {
+               display: {
+                 left: [],
+                 middle: [],
+                 right: ["close"],
+               },
+             },
+             Zoomable: {
+               Panzoom: {
+                 maxScale: "cover",
+                 panMode: "mousemove",
+                 mouseMoveFactor: 1.1,
+               },
+             },
+           },
+         });
+      </script>
+   </body>
 </html>
+
